@@ -18,7 +18,7 @@ let package = Package(
             ]
         ),
         .library(
-            name: "GoogleMediationAdapter",
+            name: "ANGoogleAdapter",
             targets: [
                "ANGoogleMobileAdsTarget"
             ]
