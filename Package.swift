@@ -51,8 +51,8 @@ let package = Package(
     ),
     .binaryTarget(
       name: "ANGoogleMobileAds",
-      url: "https://acdn.adnxs.com/mobile/mtest/SwiftPM/ANGoogleAdapter.xcframework.zip",
-     checksum: "baf00598de533f6386199da199c504fb1f136f41aa3feb026c602f0d1fe04363"
+      url: "https://acdn.adnxs.com/mobile/mtest/SwiftPM/2/ANGoogleAdapter.xcframework.zip",
+     checksum: "28d95ce9b682550b86db0537d82cf518b3d5c285dd5f905fb401af7956189e7e"
     )
     ]
 )
