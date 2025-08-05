@@ -31,14 +31,14 @@ let package = Package(
         .binaryTarget(
             name: "OMSDK_Microsoft",
             url:
-                "https://adsdkprod.azureedge.net/mobile/ios/releases/9.6.0/dynamic/OMSDK_Microsoft.zip",
-            checksum: "c078770205c405a6a96e1608b30366921633bf930695a6d57f8cf423ab1b4c85"
+                "https://adsdkprod.azureedge.net/mobile/ios/releases/9.7.0/dynamic/OMSDK_Microsoft.zip",
+            checksum: "4873befa52aec1e15253af306f046917879e401934345b7f4abd1595b40547eb"
         ),
          .binaryTarget(
             name: "AppNexusSDKTarget",
             url:
-                "https://adsdkprod.azureedge.net/mobile/ios/releases/9.6.0/dynamic/AppNexusSDKDynamic.zip",
-            checksum: "efe5347a9bcf85c15c4e2ee5fbf7d96e4dc14de39bedfb569bbd76757b22fffd"
+                "https://adsdkprod.azureedge.net/mobile/ios/releases/9.7.0/dynamic/AppNexusSDKDynamic.zip",
+            checksum: "5cc0dedd0f6066564144562830122832680165e1b4acdf5b28d8e7a81a1ad8aa"
         ),
       .target(
          name: "ANGoogleMobileAdsTarget",
@@ -51,8 +51,8 @@ let package = Package(
     ),
     .binaryTarget(
       name: "ANGoogleMobileAds",
-      url: "https://adsdkprod.azureedge.net/mobile/ios/releases/9.6.0/static/ANGoogleAdapter.zip",
-     checksum: "906067b7f6d37fb20ea1f0a36a4c46d62437a24bc75a1688d4454b61a065b5c1"
+      url: "https://adsdkprod.azureedge.net/mobile/ios/releases/9.7.0/static/ANGoogleAdapter.zip",
+     checksum: "5351f926e4d71cf6207e1d7f58abac810edb80077c94983cc7e551d1654165ed"
     )
     ]
 )
