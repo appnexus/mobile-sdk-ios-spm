@@ -25,20 +25,20 @@ let package = Package(
         ),
     ],
      dependencies: [
-        .package(name: "GoogleMobileAds", url: "https://github.com/googleads/swift-package-manager-google-mobile-ads.git", .exact("11.2.0"))
+        .package(name: "GoogleMobileAds", url: "https://github.com/googleads/swift-package-manager-google-mobile-ads.git", .exact("12.8.0"))
     ],
     targets: [
         .binaryTarget(
             name: "OMSDK_Microsoft",
             url:
-                "https://adsdkprod.azureedge.net/mobile/ios/releases/9.7.0/dynamic/OMSDK_Microsoft.zip",
-            checksum: "4873befa52aec1e15253af306f046917879e401934345b7f4abd1595b40547eb"
+                "https://adsdkprod.azureedge.net/mobile/ios/releases/9.8.0/dynamic/OMSDK_Microsoft.zip",
+            checksum: "702e995acded092e04622c1bfef90f32282312ca87fe4029aa06edfe57d993d7"
         ),
          .binaryTarget(
             name: "AppNexusSDKTarget",
             url:
-                "https://adsdkprod.azureedge.net/mobile/ios/releases/9.7.0/dynamic/AppNexusSDKDynamic.zip",
-            checksum: "5cc0dedd0f6066564144562830122832680165e1b4acdf5b28d8e7a81a1ad8aa"
+                "https://adsdkprod.azureedge.net/mobile/ios/releases/9.8.0/dynamic/AppNexusSDKDynamic.zip",
+            checksum: "2c6e991690342575d652bfd48b7d4f7b7920c5be6adea620962e27e0e95af1fb"
         ),
       .target(
          name: "ANGoogleMobileAdsTarget",
@@ -51,8 +51,8 @@ let package = Package(
     ),
     .binaryTarget(
       name: "ANGoogleMobileAds",
-      url: "https://adsdkprod.azureedge.net/mobile/ios/releases/9.7.0/static/ANGoogleAdapter.zip",
-     checksum: "5351f926e4d71cf6207e1d7f58abac810edb80077c94983cc7e551d1654165ed"
+      url: "https://adsdkprod.azureedge.net/mobile/ios/releases/9.8.0/static/ANGoogleAdapter.zip",
+     checksum: "53ca4b678bf35c1ac5d2898f8b4b3be5fafa6edec4716935df1e7a07f1870759"
     )
     ]
 )
