@@ -2,11 +2,11 @@
 
 import PackageDescription
 
-let sdkVersion = "9.14.0"
+let sdkVersion = "9.15.0"
 let baseUrl = "https://adsdk.bing.net/mobile/ios/releases"
 
 let sdkChecksum = """
-bdef7e73428edf73da7cc7b7480ce9a5eda385c3249a9a67466e3f6ed9371bff
+b248f1f7ed542b4ffacf886accac526500dc4d373b5193b9596f29643a167474
 """
 
 let package = Package(
