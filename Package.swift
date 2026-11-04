@@ -47,7 +47,8 @@ let package = Package(
         .target(name: "AppNexusSDKTarget"),
         .product(name: "GoogleMobileAds", package: "GoogleMobileAds")
       ],
-      path: "ANGoogleMobileAdsTarget"
+      path: "ANGoogleMobileAdsTarget",
+      publicHeadersPath: "."
     ),
     .binaryTarget(
       name: "ANGoogleMobileAds",
