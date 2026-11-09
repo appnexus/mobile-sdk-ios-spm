@@ -15,7 +15,7 @@ let package = Package(
     defaultLocalization: "en",
 
     platforms: [
-        .iOS(.v12)
+        .iOS(.v15)
     ],
 
     products: [
